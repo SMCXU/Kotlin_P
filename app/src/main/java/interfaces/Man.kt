@@ -1,0 +1,22 @@
+package interfaces
+
+/**
+ * 给我一行代码，还你十个BUG
+ * @author：Mr.U
+ *
+ * 创建时间：2019-11-26
+ * 更改时间：2019-11-26
+ * 版本号：1
+ * 文件描述：
+ *
+ */
+class Man : Human(), IMan {
+    override fun eat() {
+      println("哇哇哇大口吃饭")
+    }
+
+    override fun haha() {
+        println("18cm？")
+    }
+
+}
